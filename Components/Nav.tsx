@@ -1,6 +1,15 @@
 import { Bars3Icon } from '@heroicons/react/16/solid'
 import React from 'react'
 import SparklesText from './magicui/sparkles-text';
+import Link from 'next/link';
+
+
+import About1 from '@/Components/About';
+import Hero1 from '@/Components/Hero';
+import MobileNav1 from '@/Components/MobileNav';
+import Projects1 from '@/Components/Projects';
+import Skils1 from '@/Components/Skills';
+import Contacts1 from '@/Components/Contacts';
 
 interface Props{
     openNav:()=>void;
@@ -17,7 +26,7 @@ const Nav = ({openNav}:Props) => {
                 <span className='text-yellow-400'>SOLO_</span> */}
                 <SparklesText text="Mac_Solo_" />
             </h1>
-            <div className='nav-link '>HOME</div>
+            <div className='nav-link ' >HOME</div>
             <div className='nav-link '>ABOUT</div>
             <div className='nav-link '>SKILLS</div>
             <div className='nav-link '>PROJECT</div>

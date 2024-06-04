@@ -4,7 +4,7 @@ import MobileNav from '@/Components/MobileNav';
 import Nav from '@/Components/Nav'
 import Projects from '@/Components/Projects';
 import Skils from '@/Components/Skills';
-import Contacts from '@/Components/contacts';
+import Contacts from '@/Components/Contacts';
 import React, { useState } from 'react'
 
 const HomePage = () => {
