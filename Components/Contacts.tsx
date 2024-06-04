@@ -1,13 +1,19 @@
+import { ContactDock } from "./Effects/ContactDock"
+import Meteors from "./magicui/meteors"
+import RetroGrid from "./magicui/retro-grid"
 
 
-const Contacts=()=>{
+const ContactsPage =()=>{
     return(
-        <div className="  relative bg-slate-800 ">
+        <div className="  relative bg-slate-900   flex h-full w-full  items-center justify-center overflow-hidden  p-20 ">
+            <Meteors number={30} />
             
-            <div><h1>hello</h1></div>
+            <div className=" justify-center md:mx-[39%] sm:mx-[20%] content-center"> 
+            <ContactDock/>
+            </div>
          
         </div>
     )
 
 }
-export default Contacts;
+export default ContactsPage

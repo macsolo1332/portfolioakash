@@ -4,8 +4,9 @@ interface props {
     title: string;
     year: string;
     course: string;
+    dec:string;
 }
-const SkilsItem=({title,year,course}:props)=>{
+const SkilsItem=({title,year,course,dec}:props)=>{
 
     return(
         <div className="md-[4rem] md:mb-[8rem]">
@@ -20,12 +21,16 @@ const SkilsItem=({title,year,course}:props)=>{
             </h1>
             </BoxReveal>
             <BoxReveal boxColor={"#636262"} duration={1} >
-            <p className="text-[#aaaaaa] font-normal w-[80%] text-[17px] opacity-80  pb-4">
+            <p className="text-[#aaaaaa] font-normal  text-[17px] opacity-80  pb-4">
                 {course}
                 
-
             </p>
             </BoxReveal>
+            <p className="text-[#aaaaaa] font-normal w-[80%]  text-[17px] opacity-80  pb-4">
+                {dec}
+                
+            </p>
+
         </div>
     )
 }

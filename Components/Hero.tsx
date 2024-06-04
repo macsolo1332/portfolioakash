@@ -7,13 +7,15 @@ import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 
 import { BorderBeam } from "./magicui/border-beam";
 import ShimmerButton from "./magicui/shimmer-button";
+import { GitHubLogoIcon, InstagramLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
+import { Mail } from "lucide-react";
 
 
 
 const Hero =()=>{
     return(
         <div 
-        className="h-[88vh] mt-[7vh] bg-[url('/images/banner.jpg')] bg-cover bg-center"
+        className="h-[88vh] sm:h-[92vh] mt-[7vh] bg-[url('/images/banner.jpg')] bg-cover bg-center"
         >
             <Particle/>
         <div className=" w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] items-center  ">
@@ -23,20 +25,18 @@ const Hero =()=>{
                  
             </h1>
             <TextEffect/>
-            <p className="mt-[1.5rem] text-[18px] text-slate-400  ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet aut debitis earum placeat 
-                tempora reiciendis dicta possimus facere quia necessitatibus distinctio culpa, modi 
-                quibusdam ducimus, assumenda autem sint illo veniam.</p>
+            <p className="mt-[1.5rem] text-[18px] text-slate-400  ">My portfolio reflects a collaborative approach, tailoring my skills in Development and Vision to meet your unique needs. Let's craft something remarkable together.</p>
 
-            <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
+            <div className="mt-[2rem]  flex-col overflow-hidden sm:flex-col   sm:flex md:flex-row items-center  w-[20%] ">
 
 
-            {/* <ShimmerButton className="shadow-2xl h-[4rem]  w-[13.5rem]  hover:bg-yellow-500">  
-                    <p className="px-[1rem] text-[18px] font-bold uppercase text-white flex items-center space-x-2">
-                        Download CV
-                        <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] ml-[1rem] text-white" />
-                    </p>  
-            </ShimmerButton> */}
-               
+            <div className="flex ">  
+            <a href="mailto:akashsuresh2224@gmail.com"><Mail className="w-6 h-6 text-slate-200 flex-1 ml-[1.5rem] "/></a>
+            <a href="https://github.com/macsolo1332"><GitHubLogoIcon className="w-6 h-6 text-slate-200 flex-1 ml-[2rem]"/></a>
+            <a href="https://www.linkedin.com/in/akash-suresh-aab005209"><LinkedInLogoIcon className="w-6 h-6 text-slate-200 flex-1 ml-[2rem]"/></a>
+            <a href="http://www.instagram.com/mac_solo_"><InstagramLogoIcon className="w-6 h-6 text-slate-200 flex-1 ml-[2rem]"/></a>
+             </div>
+                
 
             </div>
             </div>
