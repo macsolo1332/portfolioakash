@@ -1,4 +1,5 @@
+
 [[redirects]]
   from = "/*"
-  to = "D:\myportfolio\portfolioakash\pages\index.tsx"
+  to = "/index.tsx"
   status = 200

@@ -21,11 +21,11 @@ const Hero =()=>{
         <div className=" w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] items-center  ">
             <div>
             <h1 className="w-[69%] text-[35px] mt-[20%] md:text-[50px] text-white font-bold ">
-                 HI, I'M <span className="text-yellow-400 w-[30%]"> AKASH  </span>
+                 HI, I &apos;M <span className="text-yellow-400 w-[30%]"> AKASH  </span>
                  
             </h1>
             <TextEffect/>
-            <p className="mt-[1.5rem] text-[18px] text-slate-400  ">My portfolio reflects a collaborative approach, tailoring my skills in Development and Vision to meet your unique needs. Let's craft something remarkable together.</p>
+            <p className="mt-[1.5rem] text-[18px] text-slate-400  ">My portfolio reflects a collaborative approach, tailoring my skills in Development and Vision to meet your unique needs. Let &apos;s craft something remarkable together.</p>
 
             <div className="mt-[2rem]   overflow-hidden   items-center  w-[20%] ">
 
