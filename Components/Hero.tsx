@@ -31,8 +31,8 @@ const Hero =()=>{
 
 
             <div className="flex ">  
-            <a href="mailto:akashsuresh2224@gmail.com"><Mail className="w-6 h-6 text-slate-200 flex-1 ml-[1.5rem] "/></a>
-            <a href="https://github.com/macsolo1332"><GitHubLogoIcon className="w-6 h-6 text-slate-200 flex-1 ml-[2rem]"/></a>
+            {/* <a href="mailto:akashsuresh2224@gmail.com"><Mail className="w-6 h-6 text-slate-200 flex-1 ml-[1.5rem] "/></a> */}
+            {/* <a href="https://github.com/macsolo1332"><GitHubLogoIcon className="w-6 h-6 text-slate-200 flex-1 ml-[2rem]"/></a> */}
             {/* <a href="https://www.linkedin.com/in/akash-suresh-aab005209"><LinkedInLogoIcon className="w-6 h-6 text-slate-200 flex-1 ml-[2rem]"/></a> */}
             {/* <a href="http://www.instagram.com/mac_solo_"><InstagramLogoIcon className="w-6 h-6 text-slate-200 flex-1 ml-[2rem]"/></a> */}
              </div>
