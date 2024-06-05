@@ -6,7 +6,7 @@ import { ContactDock } from "./Effects/ContactDock"
 
 const Projects=()=>{
     return(
-        <div className="pt-[4rem] md:pt-[8rem] pb-[5rem] bg-[#02050a]" >
+        <div className="pt-[4rem] md:pt-[8rem] pb-[5rem] bg-[#02050a]" id="Projects" >
             <h1 className="text-center sm:text-[33px] md:text-[45px] font-bold uppercase text-white">
                 MY <span className="text-yellow-400">Project</span>
             </h1>

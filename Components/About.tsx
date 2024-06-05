@@ -7,8 +7,8 @@ import BoxReveal from "./magicui/box-reveal"
 
 const About =()=>{
      return(
-        <>
-        <div className=" relative w-[100%] h-[2rem] bg-[#09101a] "></div>
+        <div id="About">
+        {/* <div className=" relative w-[100%] h-[2rem] bg-[#09101a] "></div> */}
         <div className=" bg-slate-900 pb-[3rem] pt-[3rem] md:pt-[8rem]">
            
             
@@ -29,7 +29,7 @@ const About =()=>{
             <BoxReveal boxColor={"#0f172a"} duration={2} >
                 <div className="mb-[3rem] flex items-center md:space-x-10">
                 <span className="w-[40px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
-                <p className="text-[19px] text-slate-300 w-[90%]">
+                <p className="text-[19px] text-slate-300 w-[90%] text-justify">
                 Welcome to my portfolio! My name is <span className="font-bold"> Akash Suresh</span> , and I am a recent MCA graduate with a
                  keen interest in the IT industry, despite having no formal work experience yet. I am passionate
                   about my work and possess a strong skill set in web development and innovative ideas. 
@@ -68,7 +68,7 @@ const About =()=>{
             </div>
             
         </div>
-        </>
+        </div>
      )
 
 

@@ -6,8 +6,8 @@ export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export function ContactDock() {
   return (
-    <div className="relative flex h-[500px] w-full max-w-[32rem] flex-col items-center justify-center overflow-hidden rounded-lg  bg-background ">
-      <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-3xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
+    <div className="relative flex h-[250px] w-full max-w-[32rem] flex-col items-center justify-center overflow-hidden rounded-lg  bg-background ">
+      <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-white to-gray-50/80 bg-clip-text text-center text-3xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
         Contact me.
       </span>
       <Dock>

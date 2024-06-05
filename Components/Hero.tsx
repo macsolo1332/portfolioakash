@@ -15,7 +15,8 @@ import { Mail } from "lucide-react";
 const Hero =()=>{
     return(
         <div 
-        className="h-[88vh] sm:h-[92vh] mt-[7vh] bg-[url('/images/banner.jpg')] bg-cover bg-center"
+        className="h-[88vh] sm:h-[92vh] mt-[3rem] bg-[url('/images/banner.jpg')] bg-cover bg-center"
+        id="Hero"
         >
             <Particle/>
         <div className=" w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] items-center  ">
@@ -25,7 +26,7 @@ const Hero =()=>{
                  
             </h1>
             <TextEffect/>
-            <p className="mt-[1.5rem] text-[18px] text-slate-400  ">My portfolio reflects a collaborative approach, tailoring my skills in Development and Vision to meet your unique needs. Let &apos;s craft something remarkable together.</p>
+            <p className="mt-[1.5rem] text-[18px] text-slate-400  text-justify">My portfolio reflects a collaborative approach, tailoring my skills in Development and Vision to meet your unique needs. Let &apos;s craft something remarkable together.</p>
 
             <div className="mt-[2rem]   overflow-hidden   items-center  w-[20%] ">
 

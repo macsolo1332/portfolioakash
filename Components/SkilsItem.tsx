@@ -26,7 +26,7 @@ const SkilsItem=({title,year,course,dec}:props)=>{
                 
             </p>
             </BoxReveal>
-            <p className="text-[#aaaaaa] font-normal w-[80%]  text-[17px] opacity-80  pb-4">
+            <p className="text-[#aaaaaa] font-normal w-[100%]  text-[17px] opacity-80  pb-4 text-justify ">
                 {dec}
                 
             </p>

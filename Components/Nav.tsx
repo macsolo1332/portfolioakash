@@ -26,11 +26,12 @@ const Nav = ({openNav}:Props) => {
                 <span className='text-yellow-400'>SOLO_</span> */}
                 <SparklesText text="Mac_Solo_" />
             </h1>
-            <div className='nav-link ' >HOME</div>
-            <div className='nav-link '>ABOUT</div>
-            <div className='nav-link '>SKILLS</div>
-            <div className='nav-link '>PROJECT</div>
-            <div className='nav-link '>CONTACT</div>
+            <a href="#Hero"> <div className='nav-link ' >HOME</div></a>
+            <a href="#About"> <div className='nav-link '>ABOUT</div></a>
+            <a href="#Skills"><div className='nav-link '>SKILLS</div></a>
+            <a href="#Projects"><div className='nav-link '>PROJECT</div></a>
+            <a href="#Contacts"><div className='nav-link '>CONTACT</div></a>
+            
             <div onClick={openNav}>
                 <Bars3Icon className='w-8 md:hidden h-8 cursor-pointer text-yellow-300 ' />
             </div>

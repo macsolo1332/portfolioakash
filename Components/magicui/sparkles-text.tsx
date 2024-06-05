@@ -56,12 +56,14 @@ interface SparklesTextProps {
   colors?: {
     first: string;
     second: string;
+    third:string;
   };
 }
 
 const SparklesText: React.FC<SparklesTextProps> = ({
   text,
-  colors = { first: "#ffffff", second: "#ffc500" },
+  colors = { first: "#ffffff", second: "#ffffff" ,third:"#ffc500" },
+
   className,
   sparklesCount = 7,
   ...props
@@ -72,7 +74,7 @@ const SparklesText: React.FC<SparklesTextProps> = ({
     const generateStar = (): Sparkle => {
       const starX = `${Math.random() * 100}%`;
       const starY = `${Math.random() * 100}%`;
-      const color = Math.random() > 0.5 ? colors.first : colors.second;
+      const color = Math.random() > 0.5 ? colors.third : colors.third;
       const delay = Math.random() * 2;
       const scale = Math.random() * 1 + 0.3;
       const lifespan = Math.random() * 10 + 5;

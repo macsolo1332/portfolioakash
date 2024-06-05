@@ -12,7 +12,7 @@ interface Props{
 
 const SkilsLanguage=({Skill1,Skill2,Skill3,level1,level2,level3}:Props)=>{
     return(
-        <div>
+        <div className=" md:hidden ">
 
             {/* <div className="relative mb-[3rem]">
                 <h1 className="p-5 w-[100%] uppercase bg-gray-800 rounded-sm text-white text-[20px] font-bold ">
